@@ -1,7 +1,7 @@
 # 🚀 CTDOWelcomeFX
 
 <div align="right">
-  <a href="README_VI.md">🇻🇳 Tiếng Việt</a>
+  <a href="README.md">🇬🇧 English</a>
 </div>
 
 <div align="center">
@@ -14,37 +14,37 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/thanhdo1110/CTDOWelcomeFX/main/Resources/demo.gif" alt="Dark Mode Demo" width="300"/>
-  <img src="https://raw.githubusercontent.com/thanhdo1110/CTDOWelcomeFX/main/Resources/demo1.gif" alt="Light Mode Demo" width="300"/>
+  <img src="https://raw.githubusercontent.com/thanhdo1110/CTDOWelcomeFX/main/Resources/demo.gif" alt="Demo Chế Độ Tối" width="300"/>
+  <img src="https://raw.githubusercontent.com/thanhdo1110/CTDOWelcomeFX/main/Resources/demo1.gif" alt="Demo Chế Độ Sáng" width="300"/>
 </div>
 
-## 📱 Introduction
+## 📱 Giới Thiệu
 
-A beautiful, customizable WelcomeFX experience library for iOS applications. This library provides a modern and engaging way to introduce your app's features to new users.
+Thư viện tạo trải nghiệm WelcomeFX đẹp mắt và có thể tùy chỉnh cho các ứng dụng iOS. Thư viện này cung cấp cách hiện đại và hấp dẫn để giới thiệu các tính năng của ứng dụng cho người dùng mới.
 
-## ✨ Features
+## ✨ Tính Năng
 
-- 🎨 Modern and clean UI design
-- 📱 Supports both iPhone and iPad
-- 🔄 Smooth animations and transitions
-- 🎯 Customizable content and styling
-- 🔒 Optional one-time or every-launch display
-- 🌐 Link support in description text
-- 🖼️ SF Symbols fallback for missing images
+- 🎨 Thiết kế UI hiện đại và sạch sẽ
+- 📱 Hỗ trợ cả iPhone và iPad
+- 🔄 Hiệu ứng và chuyển động mượt mà
+- 🎯 Nội dung và giao diện có thể tùy chỉnh
+- 🔒 Tùy chọn hiển thị một lần hoặc mỗi lần khởi động
+- 🌐 Hỗ trợ liên kết trong văn bản mô tả
+- 🖼️ Tự động sử dụng SF Symbols khi không có hình ảnh
 
-## 🛠 Installation
+## 🛠 Cài Đặt
 
 ### Git Clone
 ```bash
 git clone https://github.com/thanhdo1110/CTDOWelcomeFX.git
 ```
 
-### Manual
-Simply add `CTDOWelcomeFX.h` and `CTDOWelcomeFX.m` to your project.
+### Thủ Công
+Chỉ cần thêm `CTDOWelcomeFX.h` và `CTDOWelcomeFX.m` vào dự án của bạn.
 
-## 📖 Usage
+## 📖 Cách Sử Dụng
 
-### Basic Implementation
+### Triển Khai Cơ Bản
 
 ```obj-c++
 #import "CTDOWelcomeFX/CTDOWelcomeFX.h"
@@ -106,59 +106,59 @@ Simply add `CTDOWelcomeFX.h` and `CTDOWelcomeFX.m` to your project.
 @end
 ```
 
-## 🎨 Image Guidelines
+## 🎨 Hướng Dẫn Sử Dụng Ảnh
 
 ### 1. App Icon
-- Recommended size: 1024x1024px
-- Format: PNG
-- Can be loaded from Assets.xcassets or PNG file
-- SF Symbols fallback available
+- Kích thước khuyến nghị: 1024x1024px
+- Định dạng: PNG
+- Có thể tải từ Assets.xcassets hoặc file PNG
+- Có sẵn SF Symbols làm fallback
 
 ### 2. Feature Icons
-- Recommended size: 60x60px
-- Format: PNG
-- Can be loaded from Assets.xcassets or PNG file
-- SF Symbols fallback available
+- Kích thước khuyến nghị: 60x60px
+- Định dạng: PNG
+- Có thể tải từ Assets.xcassets hoặc file PNG
+- Có sẵn SF Symbols làm fallback
 
 ### 3. SF Symbols
-- Available as fallback when images are missing
-- Automatically scales for different screen sizes
-- Supports dynamic colors and dark mode
-- Example: "star.fill", "lock.shield.fill", "paintbrush.pointed.fill"
+- Sẵn sàng làm fallback khi không có ảnh
+- Tự động điều chỉnh kích thước cho các màn hình khác nhau
+- Hỗ trợ màu động và chế độ tối
+- Ví dụ: "star.fill", "lock.shield.fill", "paintbrush.pointed.fill"
 
-## ⚙️ Configuration
+## ⚙️ Cấu Hình
 
-| Property | Description |
-|----------|-------------|
-| `appIcon` | Your app's icon (UIImage or SF Symbol) |
-| `welcomeTitle` | Welcome message (e.g., "Welcome to") |
-| `appName` | Your app's name |
-| `appNameColor` | Color for app name |
-| `features` | Array of features to display |
-| `descriptionText` | Bottom description text |
-| `linkText` | Text to be linked |
-| `linkURL` | URL for the link |
-| `continueButtonText` | Text for continue button |
-| `userDefaultsKey` | Key for storing display state |
-| `showEveryLaunch` | Whether to show on every launch |
+| Thuộc tính | Mô tả |
+|------------|--------|
+| `appIcon` | Icon của ứng dụng (UIImage hoặc SF Symbol) |
+| `welcomeTitle` | Lời chào (ví dụ: "Welcome to") |
+| `appName` | Tên ứng dụng |
+| `appNameColor` | Màu sắc cho tên ứng dụng |
+| `features` | Mảng các tính năng cần hiển thị |
+| `descriptionText` | Văn bản mô tả ở dưới cùng |
+| `linkText` | Văn bản cần liên kết |
+| `linkURL` | URL cho liên kết |
+| `continueButtonText` | Văn bản cho nút tiếp tục |
+| `userDefaultsKey` | Khóa lưu trạng thái hiển thị |
+| `showEveryLaunch` | Có hiển thị mỗi lần khởi động hay không |
 
-## 📋 Requirements
+## 📋 Yêu Cầu
 
 - iOS 13.0+
 - Xcode 11.0+/Theos
 - Objective-C/C++
 
-## 📄 License
+## 📄 Giấy Phép
 
-This project is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+Dự án này được cung cấp dưới giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
 
-## 👥 Author
+## 👥 Tác Giả
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/thanhdo1110/CTDOWelcomeFX/main/Resources/logo.png" alt="CTDOTECH Logo" width="200"/>
   
   **CTDOTECH Team** - [@thanhdo1110](https://github.com/thanhdo1110)
-  
+
 </div>
 
 ---
