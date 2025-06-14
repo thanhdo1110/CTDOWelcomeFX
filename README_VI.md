@@ -63,21 +63,21 @@ Chỉ cần thêm `CTDOWelcomeFX.h` và `CTDOWelcomeFX.m` vào dự án của b�
 
         // --- 2. Config tuỳ chỉnh ---
         config.appIcon = [CTDOWelcomeFXImages appIconImage];
-        config.appName = @"CertApple.com";
+        config.appName = @"Ctdo.net";
         config.welcomeTitle = @"Welcome to";
         config.welcomeTitleFontSize = 45.0;  // Customize welcome title size
         config.appNameFontSize = 30.0;       // Customize app name size
         config.continueButtonText = @"continue";
         config.descriptionText = @"Please join my community here...";
         config.linkText = @"here...";
-        config.linkURL = [NSURL URLWithString:@"https://certapple.com/"];
+        config.linkURL = [NSURL URLWithString:@"https://ctdo.net/"];
         config.userDefaultsKey = @"hasShownMyTweakOnboarding";
         config.showEveryLaunch = YES;
         config.appNameColor = [UIColor colorWithRed:0.7804 green:0.2941 blue:0.5804 alpha:1.0];
-
-        // config.appNameColor = [UIColor colorWithRed:0.0 green:0.7137 blue:0.7255 alpha:1.0]; // Màu xanh dương
+        
+        config.appNameColor = [UIColor colorWithRed:0.0 green:0.7137 blue:0.7255 alpha:1.0]; // Màu xanh ngọc
         // config.appNameColor = [UIColor colorWithRed:0.0/255.0 green:201.0/255.0 blue:167.0/255.0 alpha:1.0];  // màu hồng thẫm
-        config.appNameColor = [UIColor colorWithRed:0.8706 green:0.2745 blue:0.2980 alpha:1.0]; // màu đỏ
+        // config.appNameColor = [UIColor colorWithRed:0.8706 green:0.2745 blue:0.2980 alpha:1.0]; // màu đỏ
 
 
         // Tạo các features của bạn
